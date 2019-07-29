@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.eaibee</groupId>
+  <artifactId>com.eaibee</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>com.eaibee.common</module>
+  	<module>com.eaibee.user</module>
+  	<module>com.eaibee.mall</module>
+  </modules>
+  
+  <properties>
+  	<spring-core.version>4.3.16.RELEASE</spring-core.version>
+  	<spring-boot.version>2.1.6.RELEASE</spring-boot.version>
+  	<druid-spring-boot-starter.version>1.1.14</druid-spring-boot-starter.version>
+  	<spring-cloud-starter-zookeeper-config.version>2.1.1.RELEASE</spring-cloud-starter-zookeeper-config.version>
+  	<activiti-spring-boot-starter-actuator.version>6.0.0.RC1</activiti-spring-boot-starter-actuator.version>
+  	<commons-collections4.version>4.4</commons-collections4.version>
+  	<commons-beanutils.version>1.7.0</commons-beanutils.version>
+  	<commons-fileupload.version>1.0</commons-fileupload.version>
+  </properties>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-core</artifactId>
+  		<version>${spring-core.version}</version>
+  	</dependency>
+  	<dependency>
+    	<groupId>com.alibaba</groupId>
+    	<artifactId>druid-spring-boot-starter</artifactId>
+    	<version>${druid-spring-boot-starter.version}</version>
+	</dependency>
+	<dependency>
+    <groupId>org.springframework.cloud</groupId>
+	    <artifactId>spring-cloud-starter-zookeeper-config</artifactId>
+	    <version>${spring-cloud-starter-zookeeper-config.version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.activiti</groupId>
+	    <artifactId>activiti-spring-boot-starter-actuator</artifactId>
+	    <version>${activiti-spring-boot-starter-actuator.version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.apache.commons</groupId>
+	    <artifactId>commons-collections4</artifactId>
+	    <version>${commons-collections4.version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>apache-beanutils</groupId>
+	    <artifactId>commons-beanutils</artifactId>
+	    <version>${commons-beanutils.version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>apache-fileupload</groupId>
+	    <artifactId>commons-fileupload</artifactId>
+	    <version>${commons-fileupload.version}</version>
+	</dependency>
+	
+	
+	
+	
+  </dependencies>
+  
+</project>
