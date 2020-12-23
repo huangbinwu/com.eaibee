@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com.eaibee.iml" filepath="$PROJECT_DIR$/com.eaibee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.eaibee.api/com.eaibee.api.iml" filepath="$PROJECT_DIR$/com.eaibee.api/com.eaibee.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.eaibee.common/com.eaibee.common.iml" filepath="$PROJECT_DIR$/com.eaibee.common/com.eaibee.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.eaibee.mall/com.eaibee.mall.iml" filepath="$PROJECT_DIR$/com.eaibee.mall/com.eaibee.mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.eaibee.server/com.eaibee.server.iml" filepath="$PROJECT_DIR$/com.eaibee.server/com.eaibee.server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.eaibee.third/com.eaibee.third.iml" filepath="$PROJECT_DIR$/com.eaibee.third/com.eaibee.third.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.eaibee.user/com.eaibee.user.iml" filepath="$PROJECT_DIR$/com.eaibee.user/com.eaibee.user.iml" />
+    </modules>
+  </component>
+</project>

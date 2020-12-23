@@ -1,0 +1,29 @@
+spring:
+  ## 配置应用名称
+  application:
+    name: spring-cloud-zookeeper-client-app
+  ## 配置zookeeper地址
+  cloud:
+    zookeeper:
+      config:
+        ## 启用zookeeper作为配置中心
+        enabled: true
+        ## 配置根路径
+        root: config
+        ## 配置默认上下文
+#        defaultContext: garlic
+        ## 配置profile分隔符
+#        profileSeparator: -
+      connect: 127.0.0.1:2181
+
+## 配置服务端口
+server:
+  port: 9001
+
+## 关闭安全控制
+management:
+  security:
+    enabled: false
+## log4j
+#logging:
+#  config: classpath:log4j.xml

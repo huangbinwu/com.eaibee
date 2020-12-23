@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="com.eaibee.common" />
+        <module name="com.eaibee.api" />
+        <module name="com.eaibee.user" />
+        <module name="com.eaibee.server" />
+        <module name="com.eaibee.mall" />
+        <module name="com.eaibee.third" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.eaibee" target="1.5" />
+      <module name="com.eaibee.api" target="8" />
+      <module name="com.eaibee.common" target="1.5" />
+      <module name="com.eaibee.mall" target="1.5" />
+      <module name="com.eaibee.server" target="8" />
+      <module name="com.eaibee.third" target="1.5" />
+      <module name="com.eaibee.user" target="6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -4,8 +4,8 @@
     <artifactId>com.eaibee</artifactId>
     <groupId>com.eaibee</groupId>
     <version>1.0.0</version>
-    <relativePath>..</relativePath>
+<!--    <relativePath>..</relativePath>-->
   </parent>
   <artifactId>com.eaibee.mall</artifactId>
-  <packaging>war</packaging>
+  <version>1.0.0</version>
 </project>

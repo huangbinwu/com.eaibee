@@ -4,9 +4,19 @@
     <artifactId>com.eaibee</artifactId>
     <groupId>com.eaibee</groupId>
     <version>1.0.0</version>
-    <relativePath>..</relativePath>
+<!--    <relativePath>..</relativePath>-->
   </parent>
   <artifactId>com.eaibee.common</artifactId>
-  <packaging>war</packaging>
-  
+  <packaging>jar</packaging>
+  <version>1.0.0</version>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.eaibee</groupId>
+      <artifactId>com.eaibee.api</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+
+  </dependencies>
+
 </project>
