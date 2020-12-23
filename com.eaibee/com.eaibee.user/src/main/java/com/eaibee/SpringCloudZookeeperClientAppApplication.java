@@ -1,11 +1,17 @@
 package com.eaibee.zk;
 
+import com.eaibee.api.anno.EnableServiceInterceptor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
+/**
+ * @author
+ * @date
+ */
 @SpringBootApplication
 @EnableDiscoveryClient
+@EnableServiceInterceptor
 public class SpringCloudZookeeperClientAppApplication {
 
 	/**
