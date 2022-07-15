@@ -15,7 +15,7 @@
     </modules>
 
     <properties>
-        <jackson.version>2.9.4</jackson.version>
+        <jackson.version>2.12.6.1</jackson.version>
         <guava.version>20.0</guava.version>
         <netflix.version>0.7.6</netflix.version>
         <eureka.version>1.9.13</eureka.version>
